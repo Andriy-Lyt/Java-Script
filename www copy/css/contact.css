@@ -1,0 +1,123 @@
+/* GENERAL ==================== */
+/*html { box-sizing: border-box;
+    margin: 0; padding: 0;
+} */
+ *, *::before, *::after { box-sizing: inherit; }       
+body {
+    max-width: 1200px;
+    margin: 1em auto; 
+    background-color: #f8e6d3;
+    font-family: 'Oxygen', sans-serif;      
+}
+h1 { display: none;}
+h2 { margin-top: 0.5em;
+     margin-bottom: 1em;
+    }
+p {   ;}
+
+/* PAGE LAYOUT ================= */
+#contact-section  {
+    display: inline-block;
+    float: left; 
+    width: 45%;
+    height: 28em;
+    margin-right: 2em;
+    padding: 1em;
+    border-radius: 7px;
+    border: 1px solid #e5e3df;
+    background-color: #fff;
+}
+/* MAP Section ========================== */
+#map-section {
+    display: inline-block;
+    width: 45%;
+    height: 28em;
+    padding: 1em;
+    border-radius: 7px;
+    border: 1px solid #e5e3df;
+    background-color: #fff;
+}
+#map-img {
+    text-align: center;
+
+}
+
+/* FORM start =================== */
+form div {
+    margin-bottom: 1em;
+}
+textarea {
+    width: 98%; 
+    height: 5em; 
+    margin-top: 1em;
+}
+input, textarea, select, button {
+    border-radius: 3px;
+    border-color: rgb(133, 33, 33);
+}
+#name {
+    margin-left: 1em;
+    padding-left: 0.5em;
+    height:2em;
+}
+#email {
+    margin-left: 1.3em;
+    padding-left: 0.5em;
+    height:2em;
+}
+select {
+    font-size: 0.9em;
+}
+button {
+    height:2.2em;
+    font-size: 1em;
+    background-color: rgb(133, 33, 33);
+    color: white;
+    margin-bottom: 0.5em;
+}
+#noname, #noemail  {
+    margin-left: 0.5em;
+}
+#success {
+    visibility: hidden;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 0.3em;
+}
+#success>span {
+    font-size: 1.2em;
+    color: #c7318d;
+    font-weight: 800;
+}
+#smile {
+    height: 2em;
+    margin-left: 0.5em;
+    margin-top: -0.5em;
+}
+/* Animated Images ================================ */
+#animat-container {
+    width: 100%;
+    margin-top: 0.5em;
+    position: relative;
+}
+#animate1 {
+ position: absolute;
+ left: 0;
+}
+#animate2 {
+    position: absolute;
+    right: 0;
+}
+#stop-btn {
+   display:inline-block; 
+    position: absolute;
+    top: 3em;;
+    left: 39%;
+    background-color: rgb(133, 67, 150);
+    color: #fff;
+    padding: 0.3em;
+    border-radius: 7px;
+    z-index: 5;
+
+}
+   
